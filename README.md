@@ -53,9 +53,7 @@ uvicorn dashboard.backend.main:app --port 8000 &
 cd dashboard/frontend && npm install && npm run dev
 ```
 
-Dashboard: http://localhost:5173  
-API Docs: http://localhost:8000/docs  
-MLflow: http://localhost:5000
+
 
 ---
 
@@ -132,7 +130,3 @@ terraform validate
 ```
 
 ---
-
-## Testing
-
-For a detailed walkthrough, see [WALKTHROUGH.md](file:///C:/Users/nehau/.gemini/antigravity/brain/bb6ddc18-b5a8-48ec-9bd1-7f15bcf45d63/walkthrough.md).
